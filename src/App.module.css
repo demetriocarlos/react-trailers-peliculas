@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Nanum+Gothic&family=Roboto:ital@1&display=swap');
+
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px) ;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+     
+}
+
+.titulo{
+    color: white;
+    margin: 15px 0px 5px 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 560px){
+    .grilla{
+        grid-template-columns: 100%;
+    }
+}
